@@ -20,22 +20,22 @@ body,html {
 
 .key {
   border: .4rem solid black;
-  border-radius: .5rem;
+  border-radius: .8rem;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
   transition: all .07s ease;
   width: 10rem;
   text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  color: rgb(248, 26, 214);
+  background: rgb(230, 246, 238);
+  text-shadow: 0 0 .5rem #ee0fe6;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #ee0fe6;
+  box-shadow: 0 0 1rem #ee0fe6;
 }
 
 kbd {
@@ -47,5 +47,5 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #ee0fe6;
 }
